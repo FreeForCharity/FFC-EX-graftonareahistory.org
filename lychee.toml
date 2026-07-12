@@ -28,6 +28,10 @@ exclude = [
   'instagram\.com',
   'twitter\.com',
   'youtube\.com',
+  # Reference hosts that reject bot requests (400/401) but work in browsers.
+  'hmdb\.org',
+  'drive\.google\.com',
+  'docs\.google\.com',
 ]
 
 ## Don't follow the same external URL more than once per run.
